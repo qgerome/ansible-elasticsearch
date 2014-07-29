@@ -74,3 +74,7 @@ monitor_jvm_gc_old_debug: ~    # 2s
 # logging.yml
 
 elasticsearch_logging_template: logging.yml.j2
+
+# extra
+
+elasticsearch_extra_config: false

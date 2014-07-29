@@ -181,3 +181,12 @@ monitor.jvm.gc.old.info: {{ monitor_jvm_gc_old_info }}
 {% if monitor_jvm_gc_old_debug %}
 monitor.jvm.gc.old.debug: {{ monitor_jvm_gc_old_debug }}
 {% endif %}
+
+
+
+{% if elasticsearch_extra_config %}
+# custom.yml
+{{ elasticsearch_extra_confgi }}
+
+{% endif %}
+
